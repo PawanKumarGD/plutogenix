@@ -1,0 +1,874 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+
+section {
+  width: 100%;
+  position: relative;
+}
+
+/* ============== Section1 - START ================ */
+
+
+#section1 {
+  background: url('assets/HOMEPAGE.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+#section1 .row {
+  margin-top: 2vh;
+}
+
+#section1 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-left: 5vw;
+  margin-top: 2vh;
+}
+
+#section1 h1 {
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -5%;
+  margin: 1vh 0;
+  color: rgb(80, 36, 5);
+  padding-top: 1vh;
+}
+
+.logo-initial {
+  position: relative;
+  max-width: 40vh;
+  display: block;
+  margin-top: 13vh;
+}
+
+.brand-logo {
+  position: absolute;
+  top: 5%;
+  left: 5vw;
+  max-width: 8vw;
+}
+
+.hero-buttons {
+  margin-top: 10vh;
+  padding-right: 10vw;
+}
+
+.hero-buttons .btn-link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  margin-right: 3vw;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(80, 36, 5);
+  color: rgb(80, 36, 5);
+  transition: 0.3s;
+  display: inline-block;
+  width: 7vw;
+  text-align: left;
+  font-family: playfair-display;
+  font-weight: 600;
+  font-style: semi-bold;
+  line-height: 100%;
+
+}
+
+.hero-buttons .btn-link:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+/* ============== Section1 - END ================ */
+
+
+/* ============== Section2 - START ================ */
+#section2 {
+  background-color: #4A2015;
+  color: #fff;
+  height: 90vh;
+  display: flex;
+  width: 100%;
+}
+
+#section2 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 4vw;
+  margin-top: 7vh;
+}
+
+.section2-content {
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+}
+
+.section2-text {
+  padding: 4vw;
+}
+
+.section2-text h2 {
+  font-size: 4.5rem;
+  font-weight: semi-bold;
+  margin-top: 5vh;
+  margin-bottom: 5px;
+}
+
+.section2-text h4 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
+
+.section2-text .small-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.section2-img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  right: -6.8vw;
+  top: 5vh;
+  z-index: 1;
+}
+
+
+/* ============== Section2 - END ================== */
+
+
+/* ============== Section3 - START ================ */
+/* Section container */
+#section3 {
+  background-color: #fff;
+  height: auto;
+  padding: 2vh 0;
+  width: 100%;
+  overflow: visible;
+}
+
+/* Section heading */
+.section3-text h2 {
+  font-size: 7rem;
+  font-weight: 700;
+  color: rgb(80, 36, 5);
+  text-align: left;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.section3-text {
+  margin-left: 7vw;
+  margin-top: 5vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+/* Rows */
+.section3-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10vh 0;
+  position: relative;
+  flex-direction: row;
+  padding-top: 30vh;
+}
+
+/* Images */
+.section3-img {
+  max-width: 50vh;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Card styling */
+.card {
+  width: 20vh;
+  height: 60vh;
+  border-radius: 5px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.card.yellow {
+  background: #F6B333;
+  transform: rotate(15deg);
+}
+
+
+.card.orange {
+  background: #F5851F;
+  transform: rotate(-10deg);
+}
+
+.card.red {
+  background: #F15A24;
+  transform: rotate(5deg);
+}
+
+/* Card text */
+.card h3,
+.card h2 {
+  color: rgb(80, 36, 5);
+  margin: 1vh 0;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.card h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 1.3rem;
+  color: #222;
+  margin: 5px 0;
+  text-align: center;
+}
+
+#img-cat-micro {
+  margin-top: 30vh;
+  /* max-width: 100%; */
+
+}
+
+#img-dog {
+  margin-top: -60vh;
+  /* max-width: 100%; */
+}
+
+
+#img-mouse {
+  margin-top: 50vh;
+  /* max-width: 100%; */
+
+}
+
+#img-cat-tube {
+  margin-top: -35vh;
+  width: 65vh;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-playing-goat {
+  position: absolute;
+  bottom: -40vh;
+  right: 0;
+  transform: rotate(-10deg);
+  height: auto;
+  z-index: 100;
+  /* max-width: 100%; */
+}
+
+
+.row1 {
+  transform: rotate(-5deg);
+  margin-top: -40vh;
+}
+
+.row2 {
+  transform: rotate(-5deg);
+  margin-top: -65vh;
+  position: relative;
+}
+
+.row3 {
+  margin-top: -40vh;
+  transform: rotate(10deg);
+  position: relative;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .section3-text h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .section3-text {
+    margin-left: 0;
+    margin-top: 2vh;
+  }
+
+  .section3-row {
+    flex-direction: column;
+    margin: 10px 0;
+    position: relative;
+  }
+
+  .card {
+    width: 80%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .section3-img {
+    max-width: 60%;
+    margin: 20px auto;
+  }
+}
+
+/* ============== Section3 - END ================ */
+
+/* ============== Section4 - START ================ */
+
+.science-section {
+  background-color: #f6b637;
+  padding: 80px 20px;
+  color: rgb(80, 36, 5);
+  height: 90vh;
+  overflow: visible;
+  position: relative;
+}
+
+.science-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  margin-left: 5vw;
+  margin-top: 2vh;
+}
+
+.science-title {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-bottom: 2vh;
+  font-style: semi-bold;
+}
+
+.science-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 2vh;
+}
+
+.science-list h4 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 4vh;
+}
+
+.science-list p {
+  font-size: 1.8rem;
+  margin-bottom: 2vh;
+}
+
+.science-img {
+  max-width: 70%;
+  height: auto;
+  margin-top: 18vh;
+  margin-right: 25vw;
+}
+
+.science-section .shape-img {
+  position: absolute;
+  top: -10vh;
+  left: -13vw;
+  max-width: 25%;
+  height: auto;
+  transform: rotate(-10deg);
+}
+
+
+
+
+/* ============== Section4 - END ================ */
+
+/* ============== Section5 - START ================ */
+
+/* #section5 {
+  background-color: rgb(74, 32, 21);
+  height: 120vh;
+} */
+
+/* Section 5 */
+.section5 {
+  background-color: #4a2015;
+  /* Dark brown background */
+  color: #fff;
+  padding: 80px 20px;
+  font-family: 'Montserrat' sans-serif;
+  height: auto;
+}
+
+.section5 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  margin-left: 5vw;
+  margin-top: 2vh;
+}
+
+.section5-title {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #f6b637;
+  margin-bottom: 4vh;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.service-box {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2vh 0;
+}
+
+.service-box h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.service-box p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #fff;
+  max-width: 800px;
+}
+
+
+/* ============== Section5 - END ================ */
+
+/* Footer */
+
+footer {
+  color: rgb(80, 36, 5);
+  font-size: 12px;
+  padding: 30px 15px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  display: flex;
+  justify-content: space-between;
+  max-width: 90vw;
+  margin: 0 auto;
+  user-select: none;
+}
+
+/* ====================
+   Responsive Query
+   ==================== */
+/* @media (max-width: 992px) {
+  #section1 h1 {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    text-align: center;
+  }
+
+  .brand-logo {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  #section1 {
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+  .section2-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1600px) {
+  #section1 h1 {
+    font-size: 5rem;
+  }
+
+  .card {
+    width: 500px;
+  }
+} */
+
+/* ====================
+   RESPONSIVE DESIGN
+   ==================== */
+
+/* ---------- Tablets & small laptops ---------- */
+@media (max-width: 1200px) {
+  #section1 h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .logo-initial {
+    max-width: 25vh;
+    margin: 5vh auto;
+  }
+
+  .hero-buttons {
+    text-align: center;
+    margin-top: 5vh;
+  }
+
+  .hero-buttons .btn-link {
+    width: auto;
+    margin: 0 2vw;
+    font-size: 1.2rem;
+  }
+
+  .section3-text h2 {
+    font-size: 2.5rem;
+  }
+
+  .card {
+    width: 25vw;
+    padding: 3vh 2vw;
+  }
+}
+
+/* ---------- Tablets (portrait) ---------- */
+@media (max-width: 992px) {
+  #section1 {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #section1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .brand-logo {
+    top: 2vh;
+    left: 2vw;
+    max-width: 12vw;
+  }
+
+  .section2-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section2-text h2 {
+    font-size: 2rem;
+  }
+
+  .section2-img {
+    max-width: 60vw;
+    margin-top: 3vh;
+  }
+
+  .section3-row {
+    flex-direction: column;
+    margin: 5vh 0;
+    transform: rotate(0deg) !important;
+  }
+
+  .section3-img {
+    max-width: 60vw;
+    margin: 3vh auto;
+  }
+
+  .science-section {
+    height: auto;
+    padding: 5vh 5vw;
+  }
+
+  .science-title {
+    font-size: 2.5rem;
+  }
+
+  .science-list h4 {
+    font-size: 1.5rem;
+  }
+
+  .science-img {
+    max-width: 70vw;
+    margin: 3vh auto;
+  }
+
+  .section5-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* ---------- Mobile Devices ---------- */
+@media (max-width: 768px) {
+  #section1 {
+  height: 50vh;
+  width: auto;
+}
+
+#section1 .row {
+  margin-top: 4vh;
+}
+
+#section1 h1 {
+  font-size: 2.5rem;
+}
+
+.logo-initial {
+  max-width: 20vh;
+  display: block;
+  margin-top: 2vh;
+  left: -20vw;
+}
+
+.brand-logo {
+  position: absolute;
+  top: 5%;
+  left: 5vw;
+  max-width: 15vw;
+}
+
+.hero-buttons {
+  margin-top: 8vh;
+  padding-right: 30vw;
+}
+
+.hero-buttons .btn-link {
+  font-size: 1rem;
+  width: 20vw;
+}
+
+.section2-img {
+  max-width: 50vw;
+  right: -30vw;
+  top: 2vh;
+}
+
+#section3 {
+  width: 100%;
+
+}
+
+.section3-row {
+  flex-direction: column;
+  padding-top: 10vh;
+}
+
+.section3-text h2 {
+    font-size: 2.8rem;
+    margin: 2vh 0;
+  }
+  .row1,.row2,.row3 {
+  margin-top: -40vh;
+}
+
+  .card {
+    width: 50vw;
+    margin: 2vh auto;
+    padding: 2vh 2vw;
+  }
+
+  .card h3 {
+    font-size: 1.4rem;
+  }
+
+  .card h2 {
+    font-size: 1.8rem;
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
+
+  .section3-img {
+    max-width: 50vw;
+  }
+
+  #img-cat-micro {
+  top: 1vh;
+
+}
+
+#img-dog {
+  margin-top: -5vh;
+  /* max-width: 100%; */
+}
+#img-mouse {
+  margin-top: 20vh;
+  /* max-width: 100%; */
+
+}
+#img-cat-tube {
+  margin-top: -3vh;
+  width: 65vh;
+  max-width: 100%;
+  height: auto;
+}
+
+  #img-cat-micro,
+  #img-dog,
+  #img-mouse,
+  #img-cat-tube,
+  #img-playing-goat {
+    width: 50vw;
+  }
+
+  
+.card.orange {
+  margin-top: auto;
+}
+
+
+  /* #section1 h1 {
+    font-size: 2rem;
+  }
+
+  .logo-initial {
+    max-width: 20vw;
+    margin: 3vh auto;
+  }
+
+  .hero-buttons {
+    margin-top: 3vh;
+  }
+
+  .hero-buttons .btn-link {
+    font-size: 1rem;
+    padding: 1vh 2vw;
+    border-bottom: 0.3vh solid rgb(80, 36, 5);
+  }
+
+  .section2-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .section3-text h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 85vw;
+    margin: 3vh auto;
+  }
+
+  .science-title {
+    font-size: 2rem;
+  }
+
+  .section5-title {
+    font-size: 2rem;
+  } */
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+/* ---------- Large Screens (4K, ultrawide monitors) ---------- */
+@media (min-width: 1800px) {
+  #section1 h1 {
+    font-size: 4rem;
+  }
+
+  .card {
+    width: 35vw;
+    height: 60vh;
+  }
+
+  .section5-title {
+    font-size: 4rem;
+  }
+}
+
+/* ---------- TV Screens (2K, 4K, 8K displays) ---------- */
+@media (min-width: 2560px) {
+  body {
+    font-size: 1.4rem; /* slightly larger base font */
+  }
+
+  #section1 h1 {
+    font-size: 6rem;
+    line-height: 1.3;
+  }
+
+  .logo-initial {
+    max-width: 20vh;
+  }
+
+  .hero-buttons .btn-link {
+    font-size: 2rem;
+    padding: 2vh 3vw;
+  }
+
+  .section2-text h2 {
+    font-size: 4rem;
+  }
+
+  .section3-text h2 {
+    font-size: 4rem;
+  }
+
+  .card {
+    width: 30vw;
+    height: 65vh;
+    font-size: 1.6rem;
+  }
+
+  .science-title {
+    font-size: 4.5rem;
+  }
+
+  .science-list h4 {
+    font-size: 2.2rem;
+  }
+
+  .science-list p {
+    font-size: 1.4rem;
+  }
+
+  .section5-title {
+    font-size: 5rem;
+  }
+
+  footer {
+    font-size: 1.2rem;
+    padding: 4vh 5vw;
+  }
+}
+
