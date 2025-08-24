@@ -279,6 +279,15 @@ section {
 
 /* ================== Section4 ================== */
 
+/* .science-section {
+  background-color: #f6b637;
+  padding: 80px 20px;
+  color: rgb(80, 36, 5);
+  height: 90vh;
+  overflow: visible;
+  position: relative;
+} */
+
 .science-section {
   background-color: #f6b637;
   padding: 80px 20px;
@@ -481,15 +490,15 @@ footer {
 
 
   .science-title {
-    font-size: 4.5rem;
+    font-size: clamp(2.5rem, 4vw, 4.5rem);
   }
 
   .science-list h4 {
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 3vw, 2.5rem);
   }
 
   .science-list p {
-    font-size: 1.4rem;
+    font-size: clamp(1rem, 1.5vw, 1.4rem);
   }
 
   .science-img {
@@ -692,3 +701,28 @@ footer {
   }
 }
 
+/* ===== Large Desktops (≥ 1440px) ===== */
+@media (min-width: 144px) {
+  /* Prevent things looking "too small" on wide screens */
+
+  .container,
+  .section2-content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .section2-img {
+    right: -12vw;
+    max-width: 80%;
+  }
+
+  .card {
+    width: clamp(250px, 25vw, 40vh);
+    height: clamp(280px, 30vw, 38vh);
+  }
+
+  .science-img {
+    max-width: 70%;
+    margin-top: 15vh;
+  }
+}
