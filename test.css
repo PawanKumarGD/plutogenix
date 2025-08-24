@@ -283,7 +283,8 @@ section {
   background-color: #f6b637;
   padding: 80px 20px;
   color: rgb(80, 36, 5);
-  height: 90vh;
+  min-height: 90vh;
+  height: auto;
   overflow: visible;
   position: relative;
 }
