@@ -392,6 +392,29 @@ section {
   max-width: 800px;
 }
 
+
+.modal-content {
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.modal-body input,
+.modal-body textarea {
+  border: none;
+  border-bottom: 1px solid #00a859;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 15px;
+}
+
+.modal-body input:focus,
+.modal-body textarea:focus {
+  border-color: #002147;
+  outline: none;
+  box-shadow: none;
+}
+
+
 /* ================== Footer ================== */
 footer {
   color: rgb(80, 36, 5);
