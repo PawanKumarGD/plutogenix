@@ -292,8 +292,8 @@ section {
   background-color: #f6b637;
   padding: 80px 20px;
   color: rgb(80, 36, 5);
-  min-height: 90vh;    /* Use min-height instead of height */
-  height: auto;        /* Allow section to grow with content */
+  min-height: 90vh;
+  height: auto;
   overflow: visible;
   position: relative;
 }
@@ -391,29 +391,6 @@ section {
   color: #fff;
   max-width: 800px;
 }
-
-
-.modal-content {
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.modal-body input,
-.modal-body textarea {
-  border: none;
-  border-bottom: 1px solid #00a859;
-  border-radius: 0;
-  box-shadow: none;
-  margin-bottom: 15px;
-}
-
-.modal-body input:focus,
-.modal-body textarea:focus {
-  border-color: #002147;
-  outline: none;
-  box-shadow: none;
-}
-
 
 /* ================== Footer ================== */
 footer {
@@ -513,15 +490,15 @@ footer {
 
 
   .science-title {
-    font-size: 4.5rem;
+    font-size: clamp(2.5rem, 4vw, 4.5rem);
   }
 
   .science-list h4 {
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 3vw, 2.5rem);
   }
 
   .science-list p {
-    font-size: 1.4rem;
+    font-size: clamp(1rem, 1.5vw, 1.4rem);
   }
 
   .science-img {
@@ -724,3 +701,28 @@ footer {
   }
 }
 
+/* ===== Large Desktops (≥ 1440px) ===== */
+@media (min-width: 144px) {
+  /* Prevent things looking "too small" on wide screens */
+
+  .container,
+  .section2-content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .section2-img {
+    right: -12vw;
+    max-width: 80%;
+  }
+
+  .card {
+    width: clamp(250px, 25vw, 40vh);
+    height: clamp(280px, 30vw, 38vh);
+  }
+
+  .science-img {
+    max-width: 70%;
+    margin-top: 15vh;
+  }
+}
