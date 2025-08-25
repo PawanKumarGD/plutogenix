@@ -343,7 +343,8 @@ section {
   background-color: #f6b637;
   padding: 80px 20px;
   color: rgb(80, 36, 5);
-  height: 90vh;
+  min-height: 90vh;    /* Use min-height instead of height */
+  height: auto;        /* Allow section to grow with content */
   overflow: visible;
   position: relative;
 }
